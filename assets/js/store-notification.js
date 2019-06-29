@@ -55,7 +55,7 @@ var StoreNotification = function ($) {
             }
             $('body').css({
 
-                'padding-top': notificationHeight + 'px'
+                'padding-top': (notificationHeight) + 'px'
             });
 
             this.$notification_wrap.css({

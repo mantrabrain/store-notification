@@ -141,7 +141,7 @@ class Store_Notification_Settings_General extends Store_Notification_Admin_Setti
                             'bottom-normal' => __('Bottom of the page (normal)', 'store-notification'),
                             'bottom-fixed' => __('Bottom of the page (fixed)', 'store-notification')
                         ),
-                        'default' => 'top'
+                        'default' => 'top-fixed'
                     ),
                     array(
                         'title' => __('Notification Background Color', 'store-notification'),

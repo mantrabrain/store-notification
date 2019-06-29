@@ -116,7 +116,7 @@ final class Store_Notification_Frontend
                     'hour_text' => store_notification_get_option('hour_text', 'H'),
                     'minute_text' => store_notification_get_option('minute_text', 'M'),
                     'second_text' => store_notification_get_option('second_text', 'S'),
-                    'notice_position' => store_notification_get_option('notice_position', 'top-normal'),
+                    'notice_position' => store_notification_get_option('notice_position', 'top-fixed'),
                     'notification_bar_background' => store_notification_get_option('notification_bar_background', '#424242'),
                     'time_block_background' => store_notification_get_option('time_block_background', '#ea4335'),
 
