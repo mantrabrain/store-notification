@@ -1,0 +1,28 @@
+=== Store Notification ===
+Contributors: mantrabrain
+Tags: notification, store, ecommerce, discount notification, wc,edd
+Requires at least: 3.0
+Tested up to: 5.2.2
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Show your store discount notification on WordPress.
+
+== Description ==
+
+Show your store discount notification on WordPress.
+
+Get [free support](https://mantrabrain.com/support-forum/)
+
+If you want to add awesome feature on this plugin. You are most welcome. Click  [here](https://github.com/mantrabrain/store-notification/) to contribute.
+
+== Installation ==
+  1. Install the plugin either via the WordPress.org plugin directory, or by uploading the files to your server (in the /wp-content/plugins/ directory).
+  2. Activate the Store Notification plugin through the 'Plugins' menu in WordPress.
+
+
+== Changelog ==
+
+  = 1.0.0 - 2019/06/29 =
+    - Initial Release
