@@ -119,7 +119,7 @@ final class Store_Notification_Frontend
                     'notice_position' => store_notification_get_option('notice_position', 'top-fixed'),
                     'notification_bar_background' => store_notification_get_option('notification_bar_background', '#424242'),
                     'time_block_background' => store_notification_get_option('time_block_background', '#ea4335'),
-                    'hide_close_button' => store_notification_get_option('hide_close_button', 'no'),
+                    'show_close_button' => store_notification_get_option('show_close_button', 'no'),
 
                 )
             )

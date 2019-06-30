@@ -70,7 +70,7 @@
 
     position: absolute;
     right: 20px;
-    background: #ea4335;
+    background: #444;
     border-radius: 100%;
     height: 25px;
     width: 25px;
@@ -85,7 +85,7 @@
 }
 
 .mb-notification-wrap .close:hover {
-    background: #444;
+    background: #000;
 }
 
 .mb-notification-wrap .date {

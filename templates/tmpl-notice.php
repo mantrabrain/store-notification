@@ -9,7 +9,7 @@ list($today_year, $today_month, $today_day, $hour, $minute, $second) = preg_spli
 <div class="mb-notification-wrap <?php esc_attr_e($notice['notice_position']); ?>" data-end-datetime="<?php esc_attr_e($notice['end_date_time']); ?>" style="background:<?php echo sanitize_hex_color($notice['notification_bar_background']) ?>">
     <div class="mb-inner">
         <div class="mb-container <?php echo esc_attr($notice['container_class']) ?>">
-            <?php echo 'yes' !== $notice['hide_close_button'] ? '<span class="close">X</span>': ''; ?>
+            <?php echo 'yes' == $notice['show_close_button'] ? '<span class="close">X</span>': ''; ?>
 
             <div class="mb-notice-date" style="background:<?php echo sanitize_hex_color($notice['time_block_background']) ?>">
                 <span class="date d" data-text="<?php echo esc_attr($notice['day_text']) ?>"><?php echo esc_html($notice['days']);?><span><?php echo esc_html($notice['day_text']) ?></span></span>
