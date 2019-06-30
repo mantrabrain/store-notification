@@ -22,6 +22,12 @@ If you want to add awesome feature on this plugin. You are most welcome. Click  
   2. Activate the Store Notification plugin through the 'Plugins' menu in WordPress.
 
 
+== Screenshots ==
+1. Notification frontend top view
+2. Bottom of the page notification view
+3. Setting page
+
+
 == Changelog ==
 
   = 1.0.0 - 2019/06/29 =
