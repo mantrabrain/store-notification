@@ -158,6 +158,12 @@ class Store_Notification_Settings_General extends Store_Notification_Admin_Setti
                         'default' => '#ea4335',
                     ),
                     array(
+                        'title' => __('Hide close button', 'store-notification'),
+                        'desc' => __('Hide close button', 'store-notification'),
+                        'id' => 'hide_close_button',
+                        'type' => 'checkbox',
+                    ),
+                    array(
                         'type' => 'sectionend',
                         'id' => 'store_notification_general_options',
                     )

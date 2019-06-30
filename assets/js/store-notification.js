@@ -36,14 +36,17 @@ var StoreNotification = function ($) {
 
 
             this.makeTop();
+
+            this.close();
         },
         makeTop: function () {
 
             var hasTop = this.$notification_wrap.hasClass('top-normal') || this.$notification_wrap.hasClass('top-fixed');
 
+            var notificationHeight = 0;
             if (hasTop) {
 
-                var notificationHeight = this.$notification_wrap.height();
+                notificationHeight = this.$notification_wrap.height();
 
                 var notificationTopPosition = 0;
 
@@ -53,14 +56,19 @@ var StoreNotification = function ($) {
                 }
 
             }
-            $('body').css({
 
-                'padding-top': (notificationHeight) + 'px'
-            });
-
+            $('body').prepend('<div class="store-notification-content" style="height:' + notificationHeight + 'px;width:100%; display:block;"></div>');
             this.$notification_wrap.css({
                 'top': notificationTopPosition + 'px'
             }).show();
+        },
+        close: function () {
+            var close = this.$notification_wrap.find('.close');
+            close.on('click', function () {
+                $(this).closest('.mb-notification-wrap').remove();
+                $('body').find('.store-notification-content').remove();
+            });
+
         }
 
 
@@ -74,4 +82,5 @@ var StoreNotification = function ($) {
 
         StoreNotification.init();
     });
+
 }(jQuery));

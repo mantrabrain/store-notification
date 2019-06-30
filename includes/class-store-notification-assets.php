@@ -12,7 +12,6 @@ if (!class_exists('Store_Notification_Assets')) {
         {
 
 
-
             // Other Register and Enqueue
             wp_register_style('store-notification-style', STORE_NOTIFICATION_PLUGIN_URI . '/assets/css/store-notification.css', false, STORE_NOTIFICATION_VERSION);
             wp_enqueue_style('store-notification-style');

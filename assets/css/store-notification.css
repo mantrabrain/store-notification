@@ -62,6 +62,32 @@
     clear: both;
 }
 
+.mb-notification-wrap .mb-container {
+    position: relative;
+}
+
+.mb-notification-wrap .close {
+
+    position: absolute;
+    right: 20px;
+    background: #ea4335;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 5px;
+    color: #fff;
+
+}
+
+.mb-notification-wrap .close:hover {
+    background: #444;
+}
+
 .mb-notification-wrap .date {
     font-size: 22px;
     padding: 0 15px;
