@@ -1,6 +1,6 @@
-=== Store Notification ===
+=== Store Notification | Show Discount Deal, Timer,  Notification for your WordPress Store ===
 Contributors: mantrabrain
-Tags: notification, store, ecommerce, discount notification, wc,edd
+Tags: notification, store, ecommerce, discount, notification, wc,edd
 Requires at least: 3.0
 Tested up to: 5.2.2
 Stable tag: 1.0.0
@@ -11,7 +11,7 @@ Show your store discount notification on WordPress.
 
 == Description ==
 
-Show your store discount notification on WordPress.
+Easily show discount notification on your eCommerce shop. This plugins help you to show notification with end time ( day, hour, minute, second) on your WordPress store. Mainly this plugin is suitable for your online eCommerce store.
 
 Get [free support](https://mantrabrain.com/support-forum/)
 

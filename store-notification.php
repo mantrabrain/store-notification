@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name:       Store Notification
- * Plugin URI:        https://wordpress.org/plugins/mantrabrain-instagram-pack/
- * Description:       Show Store Notification
+ * Plugin URI:        https://wordpress.org/plugins/store-notification/
+ * Description:       Easily show discount notification on your eCommerce shop. This plugins help you to show notification with end time ( day, hour, minute, second) on your WordPress store. Mainly this plugin is suitable for your online eCommerce store.
  * Version:           1.0.0
  * Author:            Mantrabrain
  * Author URI:        https://mantrabrain.com/
